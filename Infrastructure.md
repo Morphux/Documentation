@@ -79,10 +79,10 @@ Server that stores maintainers and previous versions of a package.
 
 ## Creation of a package
 
-- If the package is new to Morphux, the maintainer / admin create a new Git
+- If the package is new to Morphux, the maintainer / admin have to create a new Git as follow
 repository: gitpkg.morphux.org/packagename.git
 - The master branch is the dev version of the package
-- The git repository should contain the all package, sources included
+- The git repository should contain the full package, sources included
 - As soon as the maintainer / admin push the data into a branch like `version-XX.XX`,
 the build system automatically test the package.
 
@@ -90,7 +90,7 @@ the build system automatically test the package.
 - The build system is mostly 'Vanilla' VMs of Morphux
 - The build system test the package by cloning the maintainer repository, and execute
 a test mpm binary.
-- This binary will try to compile the package, with the informations provided by the maintainer in `package.json`
+- This binary will try to compile the package, with the informations provided by the maintainer in the `package.json`
 - If the compilation works, the system will try to deduce some information:
 	- Size of the installed package
 	- Compilation time
@@ -101,7 +101,7 @@ a test mpm binary.
 and the database server will take over
 
 ## Add a package to the database
-- Some basic informations is extracted from the package, in order to respond quickly
+- Some basic informations are extracted from the package, in order to respond quickly
 on an install request:
 	- Name of the package
 	- Version of the package
@@ -109,5 +109,5 @@ on an install request:
 	- Compilation time of the package
 	- Installed size of the package
 	- Files installed by the package
-- Once that's done, the package will be compressed and encrypted, and moved to a
+- Once done, the package will be compressed, encrypted and moved to a
 ftp server.
