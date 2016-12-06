@@ -3,64 +3,30 @@ Morphux Server Infrastructure
 
 ## Overview
 
-```
-┌──────────────────────┐
-│                      │
-│   Packages Website   │
-│                      │
-└──────────────────────┘
-```
+### Package Website
 
 Website that list all the packages available on the distribution.
 Languages: PHP / HTML / CSS
 
-```
-┌──────────────────────┐
-│                      │
-│     Build system     │
-│                      │
-└──────────────────────┘
-```
-
+### Build system
 System that build new packages / new versions of packages, on multiple
 arch through VMs.
 
 Languages: Python ?
 
-```
-┌──────────────────────┐
-│                      │
-│      MPM server      │
-│                      │
-└──────────────────────┘
-```
-
+### MPM Server
 Server that respond to an user request to install a package.
 
 Languages: C, Go, C++ ?
 
-```
-┌──────────────────────┐
-│                      │
-│   Package Database   │
-│                      │
-└──────────────────────┘
-```
 
+### Package Database
 Server that stores informations about packages
 
 Language: SQL
 
-```
-┌──────────────────────┐
-│                      │
-│      Git Server      │
-│                      │
-└──────────────────────┘
-```
-
+### Git Server
 Server that stores maintainers and previous versions of a package.
-
 
 
 ## Life of a package in a nutshell
