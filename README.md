@@ -1,4 +1,13 @@
-# Morphux Documentation
+# Morphux documentation
 
-- [Infrastructure](Infrastructure.md)
-- [Package](Package.md)
+## Build the documentation
+
+### Install mkdocs
+```
+pip install mkdocs
+```
+
+### Build
+```
+mkdocs build
+```
