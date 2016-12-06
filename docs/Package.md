@@ -1,7 +1,7 @@
 Morphux Package Skeleton
 ========================
 
-# Basic Skeleton
+## Basic Skeleton
 ```
 .:
 package.json  scripts  srcs  patches
@@ -17,7 +17,7 @@ Makefile
 name.patch
 ```
 
-# Basic template
+## Basic template
 ```json
 {
 	"package": {
@@ -45,7 +45,7 @@ name.patch
 }
 ```
 
-## Package Section
+### Package Section
 ```json
 	"package": {
 		"name": "package-name",
@@ -57,7 +57,7 @@ name.patch
 - `version` is the package version. Like `7.0-p1`
 - `description` is a short description about the package.
 
-## Compilation Section
+### Compilation Section
 ```json
 	"compilation": {
 		"patches": ["name.patch"],
@@ -82,7 +82,7 @@ Note that the options with argument are defined through an object.
 - `install` is the default install command. If blank, the command `make install`
 is executed.
 
-## Dependencies section
+### Dependencies section
 ```json
 "dependencies": {
 		"needed": [
@@ -98,7 +98,7 @@ For example `openssl-7.0`.
 - `recommended` is a list of packages that improve the stability of the package.
 - `optionnal` is a list of packages totally optionnals. For example, documentation.
 
-# Before and After script
+## Before and After script
 In the directory `script/` we can found the two differents scripts:
 - `before.sh`
 - `after.sh`
@@ -108,11 +108,11 @@ These are simple shell scripts executed before and after the install.
 **Note**: Since we don't know what shell is installed user-side, all install scripts
 _must_ be executed with /bin/sh.
 
-# Optionnal
+## Optionnal
 All optionnals sections must be added in the template file, after the required
 sections.
 
-## Group Management
+### Group Management
 If a package needs to add a group to the system, the following must be used:
 ```json
 "group": [
@@ -124,7 +124,7 @@ If a package needs to add a group to the system, the following must be used:
 ```
 Note that groups will always be added **before** the users
 
-## User Management
+### User Management
 If a package needs to add a user to the system, the following must be used:
 ```json
 "user": [
@@ -139,7 +139,7 @@ If a package needs to add a user to the system, the following must be used:
 ]
 ```
 
-## Kernel Configuration
+### Kernel Configuration
 If a package need a particular kernel configuration, the following must be used:
 ```json
 "kernel": [
@@ -148,7 +148,7 @@ If a package need a particular kernel configuration, the following must be used:
 ]
 ```
 
-## SysV Configuration
+### SysV Configuration
 If a package need a init.d script, the following must be used:
 ```json
 "init": [
