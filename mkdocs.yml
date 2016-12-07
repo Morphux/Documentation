@@ -3,8 +3,6 @@ pages:
     - Home: index.md
     - Introduction: Introduction.md
     - Install: Install.md
-    - Packages: Package.md
-    - Infrastructure: Infrastructure.md
 theme: null
 theme_dir: theme
 repo_url: https://github.com/Morphux/Documentation
