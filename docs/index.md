@@ -16,6 +16,8 @@ This Documentation is separated in different categories:
 
 - [Introduction](Introduction.md): An introduction to Morphux and Linux,
 how it works, and what you can / can't do with it.
+- [Install](Install.md): A complete procedure about installing Morphux on
+your computer.
 - [Packages](Packages.md): How the software work in Morphux
 - [Infrastructure](Infrastructure.md): A complete server Infrastructure of
 Morphux (TODO: Move to the dev Documentation)
