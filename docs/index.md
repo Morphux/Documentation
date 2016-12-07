@@ -19,3 +19,8 @@ how it works, and what you can / can't do with it.
 - [Packages](Packages.md): How the software work in Morphux
 - [Infrastructure](Infrastructure.md): A complete server Infrastructure of
 Morphux (TODO: Move to the dev Documentation)
+
+## Contribute to this Documentation
+
+This Documentation is [on github](https://github.com/Morphux/Documentation),
+you can edit any pages there. The Documentation is written in Markdown.
