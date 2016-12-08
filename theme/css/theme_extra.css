@@ -219,3 +219,8 @@ td, th {
 h1 {
 	text-align: center;
 }
+
+.rst-content blockquote {
+	border-left: 4px solid #c2c2c2;
+	padding-left: 10px;
+}
