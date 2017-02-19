@@ -29,10 +29,25 @@ program)
 As you can read above, mpm works with package categories. Here's all the
 supported categories:
 
-- ```pkg/```: Basic linux packages, provided and tested by morphux
+- ```pkg/```: Basic linux packages
 - ```lib/```: Developer libraries, with headers
 - ```kernel/```: Kernel sources and tools
+- ```virt/```: Virtualization tools
+- ```graphic/```: Graphic utilities
+- ```fonts/```: Fonts
+- ```sys/```: System utilities
+- ```programming/```: Programming utilities
+- ```net/```: Networking utilities
+- ```servers/```: Servers
 - ```python/```: Python packages, provided by pip
+- ```X/```: X utilities
+- ```wayland/```: Wayland utilities
+- ```kde/```: Kde packages
+- ```gnome/```: Gnome packages
+- ```xfce/```: Xfce packages
+- ```lxde/```: Lxde packages
+- ```lxqt```: Lxqt packages
+- ```multimedia/```: Multimedia packages
 - ```node/```: NodeJS packages, provided by npm
 - ```vim/```: Vim plugins, provided by Vim-Awesome
 - ```irssi/```: Irssi scripts / themes, provided by Irssi
@@ -45,3 +60,4 @@ supported categories:
 - ```ruby/```: Ruby packages, provided by RubyGems
 - ```scala/```: Scala packages, provided by sbt
 - ```rust/```: Rust packages, provided by cargo
+- ```perl/```: Perl modules, provided by cpan
