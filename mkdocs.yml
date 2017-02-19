@@ -1,6 +1,7 @@
 site_name: Morphux Documentation
 pages:
     - Home: index.md
+    - Status: Status.md
     - Introduction: Introduction.md
     - Install: Install.md
     - Package Manager: Package.md
